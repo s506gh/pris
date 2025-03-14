@@ -93,3 +93,10 @@ body {
     padding-right: 0px;
     margin-right: 0px;
 }
+#container {margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
