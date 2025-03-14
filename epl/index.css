@@ -1,0 +1,95 @@
+html {
+    box-sizing: border-box !important;
+  }
+body {
+    background-color: #f5f5dc;
+    font-family: Montserrat;
+    overflow-x: hidden !important;
+    /* ^ Used to hide the scrollbar*/
+  
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-variant-alternates: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 15px;
+    line-height: 1.8;
+    font-family: Montserrat, sans-serif;
+}
+#title {
+    font-weight: 900;
+    text-align: center;
+    margin-top: 20px; margin-bottom: 20px;
+}
+#standings {
+    width:fit-content;
+    border: 5px solid #000;
+    border-radius: 25px;
+    margin: auto;
+    background-color: #00000022
+    ;
+}
+.team {
+    padding: 10px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.e {
+    margin-right: 10px;
+    border-right: 2px #00000066 solid;
+    padding-right: 10px;
+}
+.pos {
+    font-weight: 500;
+    width: 10px;
+    text-align: center;
+}
+.tname {
+    font-weight: 900;
+    width: 120px;
+    text-align: center;
+}
+.record {
+    width: 105px;
+    text-align: center;
+}
+.average {
+    width: 55px;
+    text-align: center;
+}
+.hr {
+    width: 75px;
+    text-align: center;
+}
+.gp {
+    width: 75px;
+    text-align: center;
+}
+.bor {
+    border-bottom: #000 solid 4px;
+}
+@media screen and (max-width: 760px) {
+    .nom {
+        display: none;
+    }
+    .average {
+        border-right: none;
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+}
+.ps {
+    width: 95px;
+    text-align: center;
+    border-right: none;
+    padding-right: 0px;
+    margin-right: 0px;
+}
