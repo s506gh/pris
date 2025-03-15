@@ -5,36 +5,28 @@ body {
     background-color: #f5f5dc;
     font-family: Montserrat;
     overflow-x: hidden !important;
-    /* ^ Used to hide the scrollbar*/
-  
-    font-style: normal;
-    font-variant-caps: normal;
-    font-variant-ligatures: normal;
-    font-variant-numeric: normal;
-    font-variant-east-asian: normal;
-    font-variant-alternates: normal;
-    font-kerning: auto;
-    font-optical-sizing: auto;
-    font-feature-settings: normal;
-    font-variation-settings: normal;
-    font-weight: 400;
-    font-stretch: normal;
-    font-size: 15px;
-    line-height: 1.8;
     font-family: Montserrat, sans-serif;
+    animation: fadein 2s;
+    margin: 0px;
 }
+
 #title {
     font-weight: 900;
     text-align: center;
     margin-bottom: 20px;
+    margin-top: -9px;
+}
+#titlepage {
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 20px; margin-top: 20px;
 }
 #standings {
     width:fit-content;
     border: 5px solid #000;
     border-radius: 25px;
     margin: auto;
-    background-color: #00000022
-    ;
+    background-color: #00000022;
 }
 .team {
     padding: 10px;
@@ -99,4 +91,58 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 
+}
+#buttons {
+    display: flex;
+    width: 100%;
+}
+#games {
+    width: 175px;
+    height: 50px;
+    background-color: #950952;
+    border: #000 5px solid;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 900;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: background-color 1s ease-in-out, border 1s ease-in-out, width 1s ease-in-out;
+}
+#gamesover {
+    margin: auto;
+    margin-top: 10px;
+    
+}
+#games:hover {
+    background-color: #ad668b;
+    border: #000 7px solid;
+    width: 200px;
+}
+hr {
+    height: 5px;
+    border-radius: 2.5px;
+    background-color: #000;
+} 
+.a {
+    color: #005C69;
+    text-decoration: none;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.gamecontainer {
+    background-color: #00000022;
+    width: 100%;
+    margin: 0px;
+    margin-top: 5px; margin-bottom: 5px;
+}
+.game {
+    margin: auto;
+    margin-top: 5px; margin-bottom: 5px;
+    width: 500px;
 }
