@@ -34,6 +34,11 @@ body {
     height: 50px;
     align-items: center;
 }
+.seasontype {
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 0px;
+}
 .e {
     margin-right: 10px;
     border-right: 2px #00000066 solid;
@@ -117,6 +122,7 @@ body {
     background-color: #ad668b;
     border: #000 7px solid;
     width: 200px;
+    cursor: pointer;
 }
 hr {
     height: 5px;
@@ -145,4 +151,13 @@ hr {
     margin: auto;
     margin-top: 5px; margin-bottom: 5px;
     width: 500px;
+}
+#schedule {
+    background-color: #00000022;
+    height: 500px;
+    padding: 10px;
+    text-align: center;
+}
+.schedulept {
+    margin: 0px !important;
 }
